@@ -55,7 +55,6 @@ class App extends React.Component {
           <Route path={'/cars/:name'} component={CarDetail}/>
           <Route path={'/cars'} component={Cars}/>
           <Redirect to={'/'}/>
-          {/*<Route render={() => <h1 style={{color: 'red', textAlign: 'center'}}>404 not found</h1>}/>*/}
         </Switch>
       </div>
     )
